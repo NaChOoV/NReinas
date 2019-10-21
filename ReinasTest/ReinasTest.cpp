@@ -64,11 +64,11 @@ int main()
 		std::chrono::duration<double> elapsed = finish - start;
 
 		std::cout << "Tiempo total: " << elapsed.count() << "s con " << j << " threads.\n";
-		n_soluciones = 0;
+		
 
 	}
 		
-	std::cout <<n_reinas/4 <<"-reinas "<< "soluciones totales: "<< n_soluciones;
+	std::cout <<n_reinas <<"-reinas "<< "soluciones totales: "<< n_soluciones/4;
 	
 	return 0;
 }
